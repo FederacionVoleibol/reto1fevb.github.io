@@ -1,93 +1,140 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Federación de Voleibol</title>
-  <link rel="stylesheet" href="index.css">
-</head>
 
-<body>
-  <header>
-    <table width="100%" height="50px" style="color: white;">
-      <thead>
-        <tr>
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Página Principal</a>
-            </div>
-          </th>
+.table th {
+  padding-left: 0; /* Elimina el espaciado a la izquierda de los elementos */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
 
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Equipos</a>
-            </div>
-          </th>
+a {
+  color: white;
+}
 
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Calendario</a>
-            </div>
-          </th>
+footer {
+  background-color: #07566a9a;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
 
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Resultados</a>
-            </div>
-          </th>
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Clasificación</a>
-            </div>
-          </th>
+.icono {
+  margin-right: 10px;
+}
 
-          <th width="10%">
-            <div class="button">
-              <a href="" data-action="action1">Información</a>
-            </div>
-          </th>
-        </tr>
-      </thead>
-    </table>
-  </header>
+.button {
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
 
-  <div class="content-container">
-    <div class="noticias">
-      <h2 style="color: white;">Noticias destacadas</h2>
-      <!-- Contenido relacionado con noticias -->
-    </div>
+body {
+  background-color: rgb(214, 210, 210);
+  
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-    <div class="video">
-      <br><br><h2 style="color: white;">Resúmen</h2> 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/oWumIwm7t0c?si=juKS7snC156lyT5W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+h2{
+  background-color: #07566a9a;
+  font-size: 20px;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+.content-container {
+  display: flex; /* Flexbox para alinear los elementos en una fila */
+  justify-content: space-around; /* Espacio entre los elementos */
+  align-items: center; /* Alinea verticalmente los elementos */
+  margin-top: 50px; /* Espacio debajo del header */
+}
 
-    <div class="proximospartidos">
-      <h2 style="color: white;">Próximos partidos</h2>
-      <!-- Contenido relacionado con los próximos partidos -->
-    </div>
+.proximospartidos {
+  background-color: rgb(187, 202, 203);
+  font-size: 20px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
 
-    <div>
-      <a href="" class="boton-enlace">Contacto</a>
-    </div>
-  </div>
+.noticias{
+  background-color: rgb(187, 202, 203);
+  font-size: 20px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
 
-  <footer class="footer">
-    <div class="social-icons">
-      <div class="icono">
-        <a href="https://www.instagram.com/volleyballworld/?hl=es">
-          <img src="imágenes/logo-ig.png" alt="Logo IG" width="50px" height="50px">
-        </a>
-      </div>
-      <div class="icono">
-        <a href="https://x.com/volleyballworld">
-          <img src="imágenes/logo-tw.png" alt="Logo X" width="50px" height="50px">
-        </a>
-      </div>
-    </div>
-    <p>Nº Telf: 678 431 790</p>
-  </footer>
-</body>
+.video {
+  text-align: center;
+  max-width: 600px;
+  height: -10px;
+  margin: 0 20px;
+}
 
-</html>
+footer p {
+  margin-top: 10px;
+}
+
+.boton-enlace {
+  display: inline-block;
+  background-color: rgb(6, 149, 220); /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  text-align: center;
+  font-size: 17px;
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  margin-top: 20px; /* Espacio entre el botón y la tabla */
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: top;
+  margin: 30px 10px;
+}
+nav li{
+  list-style-type: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+nav li:hover{
+  background-color: rgba(162, 162, 162, 0.242);
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav{
+  max-width: auto;
+  margin: 0 auto;
+}
+header {
+  
+  background-color: #07566a9a;
+  color: #000000;
+  padding:10px;
+  
+}
+header img{
+  padding: 1px 1px;
+}
