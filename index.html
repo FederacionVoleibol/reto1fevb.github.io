@@ -1,140 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
 
 
-.table th {
-  padding-left: 0; /* Elimina el espaciado a la izquierda de los elementos */
-  text-decoration: none; /* Elimina el subrayado del enlace */
-}
+<header>
+  <meta charset="UTF-8">
+  <title>Federación de Voleibol</title>
+  <link rel="stylesheet" href="index.css">
 
-a {
-  color: white;
-}
+  <nav>
+    <a href="index.html"><img src="img/logo.png" alt="Eniun logo" width="60" height="60"></a>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Equipos</a></li>
+        <li><a href="#">Calendario</a></li>
+        <li><a href="#">Resultado</a></li>
+        <li><a href="#">Clasificación</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
 
-footer {
-  background-color: #07566a9a;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin-right: 10px;
-}
+</header>
+<body>
+ 
 
-.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  <div class="content-container">
+    <div class="noticias">
+      <h2 style="color: white;">Noticias destacadas</h2>
+      <!-- Contenido relacionado con noticias -->
+    </div>
 
-.icono {
-  margin-right: 10px;
-}
+    <div class="video">
+      <br><br><h2 style="color: white;">Resúmen</h2> 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/oWumIwm7t0c?si=f6R7H3poq6Md6fEK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-.button {
-  font-weight: bold;
-  font-size: 17px;
-  text-decoration: none; /* Elimina el subrayado del enlace */
-}
+    <div class="proximospartidos">
+      <h2 style="color: white;">Próximos partidos</h2>
+      <!-- Contenido relacionado con los próximos partidos -->
+    </div>
 
-body {
-  background-color: rgb(214, 210, 210);
-  
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+    
+    <!--<div></div>
+     <a href="" class="boton-enlace">Contacto</a>
+    </div>-->
+  </div>
 
-h2{
-  background-color: #07566a9a;
-  font-size: 20px;
-  text-decoration: none; /* Elimina el subrayado del enlace */
-}
-.content-container {
-  display: flex; /* Flexbox para alinear los elementos en una fila */
-  justify-content: space-around; /* Espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente los elementos */
-  margin-top: 50px; /* Espacio debajo del header */
-}
+  <footer class="footer">
+    <div class="social-icons">
+      <div class="icono">
+        <a href="https://www.instagram.com/volleyballworld/?hl=es">
+          <img src="img/logo-ig.png" alt="Logo IG" width="50px" height="50px">
+        </a>
+      </div>
+      <div class="icono">
+        <a href="https://x.com/volleyballworld">
+          <img src="img/logo-tw.png" alt="Logo X" width="30px" height="30px">
+        </a>
+      </div>
+    </div>
+    <p>Nº Telf: 678 431 790</p>
+  </footer>
+</body>
 
-.proximospartidos {
-  background-color: rgb(187, 202, 203);
-  font-size: 20px;
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  color: white;
-  padding: 15px;
-}
-
-.noticias{
-  background-color: rgb(187, 202, 203);
-  font-size: 20px;
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  padding: 15px;
-}
-
-.video {
-  text-align: center;
-  max-width: 600px;
-  height: -10px;
-  margin: 0 20px;
-}
-
-footer p {
-  margin-top: 10px;
-}
-
-.boton-enlace {
-  display: inline-block;
-  background-color: rgb(6, 149, 220); /* Color de fondo del botón */
-  color: white; /* Color del texto */
-  padding: 10px 20px; /* Espaciado interno del botón */
-  text-align: center;
-  font-size: 17px;
-  border-radius: 5px; /* Bordes redondeados */
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  margin-top: 20px; /* Espacio entre el botón y la tabla */
-  cursor: pointer;
-}
-
-nav ul {
-  float: right;
-  list-style-type: none;
-  text-align: center;
-  vertical-align: top;
-  margin: 30px 10px;
-}
-nav li{
-  list-style-type: none;
-  display: inline-flex;
-  margin-right: 20px;
-}
-nav li:hover{
-  background-color: rgba(162, 162, 162, 0.242);
-}
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-nav{
-  max-width: auto;
-  margin: 0 auto;
-}
-header {
-  
-  background-color: #07566a9a;
-  color: #000000;
-  padding:10px;
-  
-}
-header img{
-  padding: 1px 1px;
-}
+</html>
