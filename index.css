@@ -1,5 +1,51 @@
 
+/**
+------------------- HEADER -----------------
+**/
+nav ul {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: top;
+  margin: 30px 10px;
+}
+nav li{
+  list-style-type: none;
+  display: inline-flex;
+  margin-right: 20px;
+}
+nav li:hover{
+  background-color: rgba(162, 162, 162, 0.242);
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav{
+  max-width: auto;
+  margin: 0 auto;
+}
+header {
+  
+  background-color: #07566a9a;
+  color: #000000;
+  padding:10px;
+  
+}
+header img{
+  padding: 1px 1px;
+}
+/**
+------------------- FIN HEADER -----------------
+**/
 
+/**
+------------------- BODY -----------------
+**/
 .table th {
   padding-left: 0; /* Elimina el espaciado a la izquierda de los elementos */
   text-decoration: none; /* Elimina el subrayado del enlace */
@@ -84,9 +130,6 @@ h2{
   margin: 0 20px;
 }
 
-footer p {
-  margin-top: 10px;
-}
 
 .boton-enlace {
   display: inline-block;
@@ -100,41 +143,14 @@ footer p {
   margin-top: 20px; /* Espacio entre el botón y la tabla */
   cursor: pointer;
 }
+/**
+------------------- FOOTER -----------------
+**/
 
-nav ul {
-  float: right;
-  list-style-type: none;
-  text-align: center;
-  vertical-align: top;
-  margin: 30px 10px;
+footer p {
+  margin-top: 10px;
 }
-nav li{
-  list-style-type: none;
-  display: inline-flex;
-  margin-right: 20px;
-}
-nav li:hover{
-  background-color: rgba(162, 162, 162, 0.242);
-}
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-nav{
-  max-width: auto;
-  margin: 0 auto;
-}
-header {
-  
-  background-color: #07566a9a;
-  color: #000000;
-  padding:10px;
-  
-}
-header img{
-  padding: 1px 1px;
-}
+
+/**
+------------------- FIN FOOTER -----------------
+**/
