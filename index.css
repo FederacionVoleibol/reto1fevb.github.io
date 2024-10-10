@@ -46,6 +46,13 @@ header img{
 /**
 ------------------- BODY -----------------
 **/
+body {
+  background-color: rgb(214, 210, 210);
+  
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 .table th {
   padding-left: 0; /* Elimina el espaciado a la izquierda de los elementos */
   text-decoration: none; /* Elimina el subrayado del enlace */
@@ -55,18 +62,7 @@ a {
   color: white;
 }
 
-footer {
-  background-color: #07566a9a;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin-right: 10px;
-}
+
 
 .social-icons {
   display: flex;
@@ -84,12 +80,6 @@ footer {
   text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
-body {
-  background-color: rgb(214, 210, 210);
-  
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
 h2{
   background-color: #07566a9a;
@@ -143,10 +133,26 @@ h2{
   margin-top: 20px; /* Espacio entre el botón y la tabla */
   cursor: pointer;
 }
+
+/**
+------------------- FIN BODY -----------------
+**/
+
 /**
 ------------------- FOOTER -----------------
 **/
-
+footer {
+  background-color: #07566a9a;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
 footer p {
   margin-top: 10px;
 }
