@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="Equipo.css">
     <title>Equipo</title>
 </head>
 
@@ -23,6 +24,94 @@
       </ul>
   
   </header>
+
+  <div class="escudosayre">
+    <img src="img/logo sayre mayser.png" alt="Avatar" style="width:15%">
+    <div class="container">
+      <h3><b>CV Sayre Mayser</b></h3>
+      <p>
+        Se fundó en 2004 <br><br>
+        De Gran Canarias
+        </p>
+    </div>
+  </div>
+
+  <div class="escudoavila">
+    <img src="img/logo avila.png" alt="Avatar" style="width:15%">
+    <div class="container2">
+        <h3><b>CV Avila Voleibol</b></h3>
+        <p>
+            Se fundó en 1987 <br><br>
+            Lugar: Castilla y León
+        </p>
+    </div>
+</div>
+
+<div class="escudochamberri">
+  <img src="img/logo chamberri.png" alt="Avatar" style="width:15%">
+  <div class="container3">
+      <h3><b>CV Madrid Chamberí</b></h3>
+      <p>
+          Se fundó en 2015 <br><br>
+          Lugar: Madrid
+      </p>
+  </div>
+</div>
+
+<div class="escudobarsa">
+  <img src="img/logo barsa.png" alt="Avatar" style="width:15%">
+  <div class="container4">
+      <h3><b>CV Barça</b></h3>
+      <p>
+          Se fundó en 1994 <br><br>
+          Lugar: Barcelona
+      </p>
+  </div>
+</div>
+
+<div class="escudozaragoza">
+  <img src="img/logo cv zaragoza.png" alt="Avatar" style="width:15%">
+  <div class="container5">
+      <h3><b>CV Zaragoza</b></h3>
+      <p>
+          Se fundó en 2012 <br><br>
+          Lugar: Zaragoza
+      </p>
+  </div>
+</div>
+
+<div class="escudoalco">
+  <img src="img/logo-alcobendas.png" alt="Avatar" style="width:15%">
+  <div class="container6">
+      <h3><b>CV Alcobendas</b></h3>
+      <p>
+          Se fundó en 2000 <br><br>
+          Lugar: Madrid
+      </p>
+  </div>
+</div>
+
+<a href="Equipo.html" id="scrollToTop" style="display: none;">↑ Volver arriba</a>
+
+<script>
+  // Obtener el botón
+  var scrollToTopButton = document.getElementById("scrollToTop");
+
+  // Mostrar el botón al desplazarse hacia abajo
+  window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopButton.style.display = "flex"; // Mostrar el botón
+    } else {
+      scrollToTopButton.style.display = "none"; // Ocultar el botón
+    }
+  };
+
+  // Al hacer clic, desplazarse hacia arriba
+  scrollToTopButton.addEventListener("click", function(event) {
+    event.preventDefault(); // Evitar el comportamiento por defecto
+    window.scrollTo({top: 0, behavior: 'smooth'}); // Desplazarse suavemente hacia arriba
+  });
+</script>
 
 
   <footer class="footer">

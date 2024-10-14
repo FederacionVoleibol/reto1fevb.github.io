@@ -1,0 +1,74 @@
+.escudosayre,
+.escudoavila,
+.escudochamberri,
+.escudobarsa,
+.escudozaragoza,
+.escudoalco {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    text-align: center; /* Centra el texto y la imagen */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.escudosayre:hover,
+.escudoavila:hover,
+.escudochamberri:hover,
+.escudobarsa:hover,
+.escudozaragoza:hover,
+.escudoalco:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.escudosayre img,
+.escudoavila img,
+.escudochamberri img,
+.escudobarsa img,
+.escudozaragoza img, 
+.escudoalco{
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+.container,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    padding: 2px 16px;
+}
+
+/* Añade un margen inferior para evitar que se superponga con el footer */
+.escudosayre,
+.escudoavila,
+.escudochamberri,
+.escudobarsa,
+.escudozaragoza,
+.escudoalco {
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la derecha */
+    background-color: #07566a9a; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    display: flex; /* Alinear el texto en el centro */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    
+    transition: opacity 0.3s; /* Transición suave */
+  }
+  
+  #scrollToTop:hover {
+    opacity: 1; /* Opacidad completa al pasar el mouse */
+  }
+  
