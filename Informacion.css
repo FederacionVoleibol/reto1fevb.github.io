@@ -47,4 +47,9 @@
     float: left;
     color: #999;
   }
+
+  /* Añadir padding al párrafo */
+.respuesta {
+    margin-left: 500px; /* Ajusta este valor según lo que necesites */
+}
   
