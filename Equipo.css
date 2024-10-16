@@ -3,7 +3,7 @@
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
     justify-content: center; /* Centra los elementos dentro del contenedor */
     margin: 0 auto; /* Centra el contenedor en la página */
-    max-width: 1200px; /* Ajusta según sea necesario */
+    width: 100%; /* Ajusta según sea necesario */
 }
 
 .escudosayre,

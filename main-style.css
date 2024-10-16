@@ -51,6 +51,8 @@ body {
   
   margin: 0;
   font-family: Arial, sans-serif;
+  position: relative;
+  padding-bottom: 10%;
 }
 
 .table th {
@@ -152,7 +154,9 @@ footer {
   display: flex;
   justify-content: center;
   margin-right: 10px;
+  position: absolute;
 }
+
 footer p {
   margin-top: 10px;
   padding: 15px;
