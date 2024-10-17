@@ -1,5 +1,3 @@
-
-  
   .card {
     background-color: #fff; /* Fondo blanco para la tarjeta */
     border: 1px solid #ccc; /* Borde ligero */
@@ -14,16 +12,36 @@
   }
   
   /* Efecto de hover para la tarjeta */
-  .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda al pasar el ratón */
-  }
-  
-  .container {
-    padding: 2px 16px; /* Espaciado interno de la contenedor */
-  }
-  
-  h1 {
-    font-size: 24px; /* Tamaño del título */
-    color: #000; /* Color del texto */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda al pasar el ratón */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 5%;
+  padding: 5%;
+}
+
+h1 {
+  font-size: 24px; /* Tamaño del título */
+  color: #000; /* Color del texto */
+}
+
+.Equipo1{
+  width: 25%;
+  height: 12,5%;
+}
+.centrar{
+  padding-left: 20%;
+}
+.centrar1{
+  padding-left: 7%;
+}
+.Equipo2{
+  width: 15%;
+  height: 45%;
   }
   
