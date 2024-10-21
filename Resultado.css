@@ -1,3 +1,5 @@
+
+  
   .card {
     background-color: #fff; /* Fondo blanco para la tarjeta */
     border: 1px solid #ccc; /* Borde ligero */
@@ -12,36 +14,69 @@
   }
   
   /* Efecto de hover para la tarjeta */
-.card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda al pasar el ratón */
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #f1f1f1;
-  margin: 5%;
-  padding: 5%;
-}
-
-h1 {
-  font-size: 24px; /* Tamaño del título */
-  color: #000; /* Color del texto */
-}
-
-.Equipo1{
-  width: 25%;
-  height: 12,5%;
-}
-.centrar{
-  padding-left: 20%;
-}
-.centrar1{
-  padding-left: 7%;
-}
-.Equipo2{
-  width: 15%;
-  height: 45%;
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda al pasar el ratón */
   }
   
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin: 5%;
+    padding: 5%;
+  }
+  
+  h1 {
+    font-size: 24px; /* Tamaño del título */
+    color: #000; /* Color del texto */
+  }
+  
+  .Equipo1{
+    width: 10%;
+    height: 5%;
+  }
+
+  .Equipo2{
+    width: 5%;
+    height: 2,5%;
+    }
+
+    .Equipo3{
+      width: 10%;
+      height: 5%;
+      }
+
+      .Equipo4{
+        width: 5%;
+        height: 2,5%;
+        }
+        .Equipo5{
+          width: 10%;
+          height: 5%;
+          }
+          .Equipo6{
+            width: 5%;
+            height: 2,5%;
+            }
+
+caption{
+ text-align: center;
+}
+
+table{
+  border: #000 solid 2px;
+  text-align: center;
+  margin-left: 5%;
+}
+tr{
+  border: #000 solid 2px;
+}
+td{
+  border: #000 solid 2px;
+  text-align: center;
+}
+th{
+  border: #000 solid 2px;
+  text-align: center;
+}
