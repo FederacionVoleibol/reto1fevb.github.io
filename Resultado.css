@@ -26,39 +26,28 @@
     margin: 5%;
     padding: 5%;
   }
+  .tabla1{
+    width: 95%;
+  }
+  .Grande1{
+    width: 45%;
+  }
+  .Grande2{
+    width: 49%;
+  }
+  .Grande3{
+    width: 45%;
+  }
+  .Grande4{
+    width: 48%;
+  }
+
   
   h1 {
     font-size: 24px; /* Tamaño del título */
     color: #000; /* Color del texto */
   }
   
-  .Equipo1{
-    width: 10%;
-    height: 5%;
-  }
-
-  .Equipo2{
-    width: 5%;
-    height: 2,5%;
-    }
-
-    .Equipo3{
-      width: 10%;
-      height: 5%;
-      }
-
-      .Equipo4{
-        width: 5%;
-        height: 2,5%;
-        }
-        .Equipo5{
-          width: 10%;
-          height: 5%;
-          }
-          .Equipo6{
-            width: 5%;
-            height: 2,5%;
-            }
 
 caption{
  text-align: center;
@@ -80,3 +69,5 @@ th{
   border: #000 solid 2px;
   text-align: center;
 }
+
+        
