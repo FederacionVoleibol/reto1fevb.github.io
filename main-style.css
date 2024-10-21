@@ -29,6 +29,7 @@ nav{
   max-width: auto;
   margin: 0 auto;
 }
+
 header {
   /*display: flex;*/
   width: 100%;
@@ -36,10 +37,11 @@ header {
   background-color: #07566a9a;
   color: #000000;
   padding:10px;
-  
+  height: 70px; /* Define una altura específica */
 }
 header img{
-  padding: 1px 15px;
+  padding: 1px 10px;
+  /*float: left;*/
 }
 /**
 ------------------- FIN HEADER -----------------
@@ -50,11 +52,12 @@ header img{
 **/
 body {
   background-color: rgb(214, 210, 210);
-  
+  /*align-items: center;*/
   margin: 0;
   font-family: Arial, sans-serif;
   position: relative;
   padding-bottom: 10%;
+
 }
 
 .table th {
@@ -157,6 +160,7 @@ footer {
   justify-content: center;
   margin-right: 10px;
   position: absolute;
+  height: 70px;
 }
 
 footer p {

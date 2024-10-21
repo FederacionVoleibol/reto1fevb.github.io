@@ -1,7 +1,4 @@
 body {
-    display: flex;
-    /*justify-content: center; /* Centra horizontalmente */
-    align-items: center;
     flex-direction: column; /* Acomoda los hijos en columna (si es necesario) */
     width: 100%;
  }
@@ -10,6 +7,10 @@ body {
          /* Estilos del contenedor */
          .tables {
             display: flex;
+            margin: 0px 100px 0px 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
             flex-wrap: nowrap; /* Para que las tablas se acomoden en una nueva línea en pantallas más pequeñas */
             justify-content: space-around; /* Espacio entre tablas */
         }
@@ -17,10 +18,10 @@ body {
         /* Estilos para las tablas */
         table {
             border: 1px solid black;
-            margin: 10px;
+            margin: 10px 40px;
             flex: 1;
             width: 30%; /* El ancho será un 30% del contenedor */
-            min-width: 250px; /* El ancho mínimo de las tablas */
+            min-width: 100px; /* El ancho mínimo de las tablas */
             border-collapse: collapse; /* Colapsa bordes */
         }
 
@@ -36,6 +37,10 @@ body {
 
         th, td {
             padding: 5px;
+            text-align: center;
+        }
+
+        .leyenda {
             text-align: center;
         }
 
