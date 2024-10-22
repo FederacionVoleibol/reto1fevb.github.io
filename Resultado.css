@@ -1,4 +1,3 @@
-
   
   .card {
     background-color: #fff; /* Fondo blanco para la tarjeta */
@@ -30,18 +29,20 @@
     width: 95%;
   }
   .Grande1{
-    width: 45%;
+    width: 47%;
   }
   .Grande2{
-    width: 49%;
+    width: 47.5%;
   }
   .Grande3{
-    width: 45%;
+    width: 47%;
   }
   .Grande4{
-    width: 48%;
+    width: 47.5%;
   }
-
+  .ancho1{
+    width: 3px ;
+  }
   
   h1 {
     font-size: 24px; /* Tamaño del título */
@@ -69,5 +70,3 @@ th{
   border: #000 solid 2px;
   text-align: center;
 }
-
-        
