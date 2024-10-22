@@ -35,6 +35,13 @@ body {
             background-color: white;
         }
 
+.dia-partido{
+            background-color: #db7070;
+            color: white; /* Cambia el color del texto si es necesario*/
+        }
+
+        
+
         th, td {
             padding: 5px;
             text-align: center;
@@ -52,4 +59,23 @@ body {
             table {
                 /*width: 100%; /* En pantallas pequeñas, las tablas ocuparán el 100% del contenedor */
             }
-        }  
+        } 
+.contenedor-leyenda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leyenda {
+    text-align: center;
+}
+
+.color-cuadrado {
+    width: 20px;
+    height: 20px;
+    background-color: #db7070;
+    margin-right: 10px;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
