@@ -11,7 +11,9 @@ nav ul {
 }
 nav li{
   list-style-type: none;
-  displa
+  display: inline-flex;
+  margin-right: 20px;
+}
   /**
   ------------------- HEADER -----------------
   **/
@@ -188,10 +190,11 @@ nav li{
   
   
   /**
-  ------------------- FIN FOOTER -----------------
-  **/y: inline-flex;
+  ------------------- FIN FOOTER ----------------- y: inline-flex;
   margin-right: 20px;
-}
+}**/
+  
+ 
 nav li:hover{
   background-color: rgba(162, 162, 162, 0.242);
 }
