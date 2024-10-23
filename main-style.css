@@ -11,7 +11,185 @@ nav ul {
 }
 nav li{
   list-style-type: none;
-  display: inline-flex;
+  displa
+  /**
+  ------------------- HEADER -----------------
+  **/
+  nav ul {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 30px 10px;
+  }
+  nav li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  nav li:hover{
+    background-color: rgba(162, 162, 162, 0.242);
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  nav{
+    max-width: auto;
+    margin: 0 auto;
+  }
+  header {
+    width: 100%;
+    background-color: #07566a9a;
+    color: #000000;
+    padding:10px;
+    
+  }
+  header img{
+    padding: 1px 1px;
+  }
+  /**
+  ------------------- FIN HEADER -----------------
+  **/
+  
+  /**
+  ------------------- BODY -----------------
+  **/
+  body {
+    background-color: rgb(214, 210, 210);
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    padding-bottom: 10%;
+  }
+  
+  .table th {
+    padding-left: 0; /* Elimina el espaciado a la izquierda de los elementos */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+  }
+  
+  a {
+    color: white;
+  }
+  
+  
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icono {
+    margin-right: 10px;
+  }
+  
+  .button {
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+  }
+  
+  
+  h2{
+    background-color: #07566a9a;
+    font-size: 20px;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+  }
+  .content-container {
+    display: flex; /* Flexbox para alinear los elementos en una fila */
+    justify-content: space-around; /* Espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 50px; /* Espacio debajo del header */
+  }
+  
+  .proximospartidos {
+    background-color: rgb(187, 202, 203);
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }
+  
+  .noticias{
+    background-color: rgb(187, 202, 203);
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+  }
+  
+  .video {
+    text-align: center;
+    max-width: 600px;
+    height: -10px;
+    margin: 0 20px;
+  }
+  
+  
+  .boton-enlace {
+    display: inline-block;
+    background-color: rgb(6, 149, 220); /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    margin-top: 20px; /* Espacio entre el botón y la tabla */
+    cursor: pointer;
+  }
+  
+  .Contactarnos{
+    text-decoration-line: none;
+    color: white;
+    padding-left: 650%;
+  }
+  
+  .Contactarnos:hover{
+  color: #000000;
+  
+  }
+  
+  /**
+  ------------------- FIN BODY -----------------
+  **/
+  
+  /**
+  ------------------- FOOTER -----------------
+  **/
+  footer {
+    background-color: #07566a9a;
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    position: absolute;
+  }
+  footer p {
+    margin-top: 10px;
+    padding: 15px;
+  }
+  
+  
+  
+  /**
+  ------------------- FIN FOOTER -----------------
+  **/y: inline-flex;
   margin-right: 20px;
 }
 nav li:hover{
