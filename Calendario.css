@@ -1,18 +1,17 @@
 body {
     flex-direction: column; /* Acomoda los hijos en columna (si es necesario) */
     width: 100%;
- }
-
-  
-         /* Estilos del contenedor */
+    display: flex;
+}
+         /* Estilos del contenedor de los calendarios*/
          .tables {
             display: flex;
             margin: 0px 100px 0px 100px;
             padding-top: 20px;
             padding-bottom: 20px;
-            display: flex;
             flex-wrap: nowrap; /* Para que las tablas se acomoden en una nueva línea en pantallas más pequeñas */
             justify-content: space-around; /* Espacio entre tablas */
+            justify-content: center; /* Centrar horizontalmente */
         }
 
         /* Estilos para las tablas */
