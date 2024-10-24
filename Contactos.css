@@ -1,0 +1,28 @@
+table.tabla{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 40%;
+}
+h1.centrar{
+    margin-left: 40%;
+}
+th{
+    background-color: aqua;
+}
+.bordes{
+    border: 1px solid black;
+    text-align: start;
+    background-color: rgb(190, 185, 185);
+}
+a.margen{
+    color: black;
+    text-decoration-line: none;
+    margin-left: 40%;
+}
+a:hover{
+background-color: white;
+}
+#footer2{
+position: fixed;
+
+}
