@@ -70,3 +70,14 @@ th{
   border: #000 solid 2px;
   text-align: center;
 }
+
+.nombresequipos{
+  text-decoration-line: none;
+  color: black;
+  padding-left: 650%;
+}
+
+.nombresequipos:hover{
+color: #000000;
+
+}
